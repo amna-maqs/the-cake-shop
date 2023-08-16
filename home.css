@@ -429,8 +429,8 @@ div.row{
 
   .product-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 50px;
+    grid-template-columns:repeat(auto-fit,minmax(100px,2fr));
+    gap: 250px;
     justify-items: center;
   }
 
@@ -529,6 +529,7 @@ div.row{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 50px;
+      width:100%
     }
   }
 
@@ -538,6 +539,7 @@ div.row{
       grid-template-columns: repeat(1, 1fr);
       gap: 50px;
       margin-right: 70px;
+      width:100%
     }
   }
 
